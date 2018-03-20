@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 40.363 s <<< FAILURE! - in TestSuite
+loginSuccessfully(yahoo.testcases.LoginSuccessfully2)  Time elapsed: 7.352 s  <<< FAILURE!
+java.lang.AssertionError: expected [2] but found [1]
+	at yahoo.testcases.LoginSuccessfully2.loginSuccessfully(LoginSuccessfully2.java:23)
+
+beforeMethod(yahoo.testcases.LoginSuccessfully3)  Time elapsed: 8.091 s  <<< FAILURE!
+java.lang.NullPointerException
+

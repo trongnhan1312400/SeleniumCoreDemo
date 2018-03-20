@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="AUT" value="https://goo.gl/4TQGwF"/>
+  <listeners>
+    <listener class-name="com.saucelabs.testng.SauceOnDemandTestListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="yahoo.testcases.LoginSuccessfully">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="loginSuccessfully"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- yahoo.testcases.LoginSuccessfully -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="20777" started-at="2018-03-19T03:21:10Z" finished-at="2018-03-19T03:21:30Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20777" started-at="2018-03-19T03:21:10Z" finished-at="2018-03-19T03:21:30Z">
+      <class name="yahoo.testcases.LoginSuccessfully">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:yahoo.testcases.LoginSuccessfully@3cef309d]" name="beforeSuite" is-config="true" duration-ms="33" started-at="2018-03-19T10:21:10Z" finished-at="2018-03-19T10:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.reflect.Method)[pri:0, instance:yahoo.testcases.LoginSuccessfully@3cef309d]" name="beforeMethod" is-config="true" duration-ms="7055" started-at="2018-03-19T10:21:10Z" finished-at="2018-03-19T10:21:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://goo.gl/4TQGwF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void yahoo.testcases.LoginSuccessfully.loginSuccessfully()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginSuccessfully()[pri:0, instance:yahoo.testcases.LoginSuccessfully@3cef309d]" name="loginSuccessfully" duration-ms="12843" started-at="2018-03-19T10:21:17Z" description="login to yahoo!" finished-at="2018-03-19T10:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessfully -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:yahoo.testcases.LoginSuccessfully@3cef309d]" name="afterMethod" is-config="true" duration-ms="846" started-at="2018-03-19T10:21:30Z" finished-at="2018-03-19T10:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- yahoo.testcases.LoginSuccessfully -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

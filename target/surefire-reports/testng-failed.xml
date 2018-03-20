@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite2]">
+  <parameter name="AUT" value="https://goo.gl/4TQGwF"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="yahoo.testcases.LoginSuccessfully2">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="loginSuccessfully"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- yahoo.testcases.LoginSuccessfully2 -->
+      <class name="yahoo.testcases.LoginSuccessfully3">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="loginSuccessfully"/>
+        </methods>
+      </class> <!-- yahoo.testcases.LoginSuccessfully3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite2] -->
